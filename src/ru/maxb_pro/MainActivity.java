@@ -26,9 +26,9 @@ public class MainActivity extends TabActivity
         res = getResources();
         tabHost = getTabHost();
 
-        addTab(HomeActivity.class, TAB_TAG_PROCESS, res.getString(R.string.process), res.getDrawable(R.drawable.process));
         addTab(CacheActivity.class, TAB_TAG_CACHE, res.getString(R.string.cache), res.getDrawable(R.drawable.cache));
         addTab(CleanerActivity.class, TAB_TAG_CLEANER, res.getString(R.string.cleaner), res.getDrawable(R.drawable.clear));
+        addTab(HomeActivity.class, TAB_TAG_PROCESS, res.getString(R.string.process), res.getDrawable(R.drawable.process));
         addTab(AboutActivity.class, TAB_TAG_ABOUT, res.getString(R.string.about), res.getDrawable(R.drawable.about));
 
         tabHost.setCurrentTab(0);

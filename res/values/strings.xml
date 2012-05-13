@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cleaner</string>
+    <string name="process">Процессы</string>
+    <string name="about">О программе</string>
+    <string name="cache">Очистка кэша</string>
+    <string name="cleaner">Очистка</string>
+
+    <string name="delete_all">Очистить кэш всех приложений</string>
+    <string name="open_settings">Настройки приложений</string>
+    <string name="info_proc">Информация о процессоре</string>
+    <string name="info_memory">Информация о памяти</string>
+</resources>
